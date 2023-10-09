@@ -1,0 +1,27 @@
+.bubble::after {
+    content: '';
+    border-bottom-left-radius: 50% 100%;
+    border-bottom-right-radius: 50% 100%;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    background-color: #D9D9D9;
+    height: 25%;
+}
+
+.border-home{
+    background-image: linear-gradient(to bottom, #0B3078 , #2B32B2);
+}
+
+.haha{
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.grad-yellow {
+    background: -webkit-linear-gradient(to right, #E2CC56, #FFE459);
+    background: linear-gradient(to right, #E2CC56, #FFE459);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
