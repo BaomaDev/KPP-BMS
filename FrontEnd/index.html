@@ -6,8 +6,9 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -36,58 +37,109 @@
       </nav>
     
     <!--Landing Page-->
-    <section id="" style="background-color: #D9D9D9;">
-    <section class="bubble">
+    <section id="" class="landing">
+    <div class="bubble">
         <section class="container">
             <div class="row">
               <div class="col-sm-12 container-fluid border mt-4 border-home rounded-3">
                 <div class="help row">
                   <img class="eclips1" src="./assets/eclipz.png">
                     <div class="col-sm m-auto">
-                        <p class="fs-1"><span class="grad-yellow">L</span><span class="text-white">OCAL</span></p>
-                        <p class="fs-1"><span class="grad-yellow">K</span><span class="text-white">NOWLEDGE</span></p>
-                        <p class="fs-1"><span class="grad-yellow">W</span><span class="text-white">ITH</span></p>
-                        <p class="fs-1 grad-yellow">JA(W)IR</p>
+                        <p><span class="grad-yellow">L</span><span class="text-white">OCAL</span></p>
+                        <p><span class="grad-yellow">K</span><span class="text-white">NOWLEDGE</span></p>
+                        <p><span class="grad-yellow">W</span><span class="text-white">ITH</span></p>
+                        <p class="grad-yellow">JA(W)IR</p>
                     </div>
                     <img class="eclips2" src="./assets/eclipz.png">
                     <div class="col-sm help2">                
-                        <img class="haha w-100 h-100" src="https://www.its.ac.id/informatika/wp-content/uploads/sites/44/2018/03/MG_1946-2.jpg">
+                        <img id="image" class="haha w-100 h-100" src="https://www.its.ac.id/informatika/wp-content/uploads/sites/44/2018/03/MG_1946-2.jpg">
                     </div>
                     <img class="eclips3" src="./assets/eclipz.png">
                 </div>
               </div>
-            </div>
-            <div class="mt-2 text-center fs-1">
-                <a style="color: #2B32B2;">Journalism with Informatics</a>
+              <div class="mt-2 text-center">
+                  <a style="color: #2B32B2; font-size: 44px; letter-spacing: 13px;">Journalism with Informatics</a>
+              </div>
             </div>
         </section>
-    </section>
+      </div>
     </section>
     
     
     <!--About Page-->
     <section id="about">
+      <div class="filler"></div>
       <div class="container-fluid"> 
         <div class="row">
-          <a class="fs-1 text-white text-center">ABOUT JA(W)IR</a>
-          <img class="vektor5" src="./assets/vector5.png">
-          <img class="vektor2" src="./assets/vector2.png">
-          <img class="vektor1" src="./assets/vector1.png">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere optio veniam natus pariatur ullam tenetur suscipit beatae iusto incidunt dolorum aliquam, corrupti illo fugiat, quia cupiditate aperiam autem quibusdam numquam?</p>
+          <div class="container">
+            <div class="titleabout text-center">
+              <p class="fs-1 text-white">ABOUT JA(W)IR</p>
+            </div>
+            <img class="vektor3" src="./assets/vector3.png" data-aos="fade-right">
+            <img class="vektor2" src="./assets/vector2.png" data-aos="fade-up-right">
+            <img class="vektor1" src="./assets/vector1.png" data-aos="fade-left">
+            <div class="container mt-5" style="text-align: justify;">
+              <div class="row">
+                <div class="col-sm-2"></div>
+                <p class="contentabout fs-2 text-white col-sm-8" style="position: relative; z-index: 3;">
+                  Selamat datang di JA(W)IR - Journalism With Informatics, tempat di mana kami membagikan fun facts menarik seputar pengalaman praktikum dasar pemrograman di Departemen Teknik Informatika ITS. Kami adalah tim yang berkomitmen untuk menghadirkan wawasan unik tentang apa yang sebenarnya terjadi selama praktikum pemrograman. Kami mendekati ini melalui wawancara dengan praktikan dan asisten dosen, menggali pengalaman mereka, serta membagikan informasi yang mungkin belum pernah Anda dengar sebelumnya.
+                </p>
+                <div class="col-sm-2"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <!--Photography Page-->
     <section id="photo">
-      <div class="container-fluid">
-        <div class="row">
-          <img class="vector3" src="./assets/vector3.png">
+          <img class="shade1" src="./assets/shade1.png">
           <img class="eclips4" src="./assets/eclipz.png">
-          <a class="fs-1 text-center">ABOUT JA(W)IR</a>
-
-        </div>
-      </div>
+          <div class="filler"></div>
+          <div class="container text-center mt-5">
+            <div class="row">
+              <div class="col-md-1"></div>
+              <div class="col-md-5">
+                <div class="titleabout text-end">
+                  <p style="font-size: 49px; color: #89C2D9;">SHOWCASING OUR</p>
+                </div>
+                <div class="titleabout badge rounded-pill p-3">
+                  <p style="font-size: 49px; color: #024A67;">photography</p>
+                </div>
+                <div class="contentabout text-end">
+                  <p style="font-size: 35px; color: #89C2D9;">Hadir dengan inspirasi<br/>untuk kalian setiap hari.</p>
+                </div>
+              </div>
+              <div class="hover10 col-md-5">
+                <img src="../FrontEnd/assets/image1.jpg" class="img-fluid custom-image rounded-3" alt="Placeholder Image 2" data-aos="fade-up">
+              </div>
+              <div class="col-md-1"></div>
+            </div>
+            <div class="row my-4">
+              <div class="col-md-1"></div>
+              <div class="hover10 col-md-5">
+                <img src="../FrontEnd/assets/image2.jpg" class="img-fluid custom-image rounded-3" alt="Placeholder Image 3" data-aos="fade-up">
+              </div>
+              <div class="col-md-5 hover10">
+                <div class="image-container">
+                  <a href="photography.html" class="image-link">
+                    <img src="../FrontEnd/assets/image3.jpg" class="img-fluid custom-image rounded-3" alt="Placeholder Image 4" data-aos="fade-up">
+                    <div class="image-text">Click to see more</div>
+                    <div class="image-button"></div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-1"></div>
+            </div>
+          </div>
+          <div class="filler"></div>
     </section>
-</body>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+    <script>AOS.init();</script>
+  </body>
 </html>

@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+}
+
+.navbar {
+    background: rgb(43,50,178);
+    background: linear-gradient(90deg, rgb(43, 50, 178) 0%, rgb(0, 0, 0, 0)100%);
+    font-family: 'Graduate', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rokkitt', serif;
+}
+
+.navbar a {
+    color: #D9D9D9;
+}
+
+.homepage .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.circle {
+    width: 519px;
+    height: 519px;
+    top: 227px;
+    left: 340px;
+    border-radius: 50%; 
+    background-color: #0022D4; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle p {
+
+
+width: 891px;
+height: 139px;
+left: 154px;
+top: 417px;
+text-align: center;
+font-family: 'Graduate', serif;
+font-style: normal;
+font-weight: 400;
+font-size: 122px;
+line-height: 139px;
+color: #FFFFFF;
+    
+}
+
+.deskripsi .blur {
+    background-color: #FFFFFF;
+}
+
+.deskripsi {
+    background-color: #1E1E1E;
+}
+
+.deskripsi a {
+    font-size: 45px;
+    font-family: 'Graduate', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rokkitt', serif;
+}
+
+.result text {
+    margin: 100px;
+}
+
+.gambar img {
+    width: 1476px;
+    height: 664px;
+}
