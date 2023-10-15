@@ -1,8 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Graduate&family=Unbounded:wght@300;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
 
 body{
     overflow-x: hidden;
+}
+
+.navbar {
+    background: rgb(43,50,178);
+    background: linear-gradient(to right, #E2CC56, #fff);
+    font-family: 'Graduate', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rokkitt', serif;
+}
+
+.navbar a {
+    color: #014F86;
 }
 
 /*landing page*/
@@ -173,7 +186,6 @@ body{
     background: linear-gradient(to right, #F09819, #EDDE5D);
 }
 
-/* Add this to your CSS */
 .hover10 img {
     -webkit-filter: grayscale(0) blur(0);
     filter: grayscale(0) blur(0);
@@ -186,7 +198,6 @@ body{
     filter: grayscale(100%) blur(3px);
   }
 
-  /* Add this to your CSS */
 .image-container {
     position: relative;
     overflow: hidden;
@@ -209,4 +220,65 @@ body{
     opacity: 1;
   }
   
-  
+  .shade2{
+    left: 500px;
+    top: 600px;
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    z-index: -1;
+  }
+
+  /*Interview section*/
+.titleinterview{
+    font-family: 'Graduate', serif;
+    font-size: 40px;
+    color: #89C2D9;
+}
+
+.isiinterview{
+    font-family: 'Rokkitt', serif;
+    font-size: 20px;
+    color: #89C2D9;
+}
+
+/*Footer Section*/
+.footertitle{
+    font-family: 'Graduate', serif;
+    font-size: 50px;
+    color: #89C2D9;
+}
+
+.footerisi{
+    font-family: 'Rokkitt', serif;
+    font-size: 45px;
+    color: #89C2D9;
+}
+
+/*email*/
+#email {
+    background-color: #262626; /* Dark background color */
+}
+
+#email::placeholder {
+    font-family: 'Old Standard TT', serif;    
+    color: #A9D6E5; /* Dark background color */
+}
+
+/* Custom style for the button */
+.subscribe-button {
+    font-family: 'Old Standard TT', serif;
+    background-color: #A9D6E5;
+    color: #262626;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.footer {
+    font-family: 'Old Standard TT', serif;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
