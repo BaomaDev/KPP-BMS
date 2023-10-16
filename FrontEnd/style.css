@@ -6,15 +6,36 @@ body{
     overflow-x: hidden;
 }
 
-.navbar {
-    background: rgb(43,50,178);
+.navbar-normal {
+    font-size: 38px;
     background: linear-gradient(to right, #E2CC56, #fff);
-    font-family: 'Graduate', serif;
-    font-family: 'Poppins', sans-serif;
     font-family: 'Rokkitt', serif;
 }
 
-.navbar a {
+.navbar-normal .collapse{
+    justify-content: end;
+}
+
+.navbar-normal a {
+    color: #014F86;
+}
+
+.navbar-scrolled{
+    transition: 0.5s;
+    font-size: 20px;
+    background-color: #1E1E1E;
+    font-family: 'Rokkitt', serif;
+}
+
+.navbar-scrolled .collapse{
+    justify-content: center;
+}
+
+.navbar-scrolled a{
+    color: #D9D9D9;
+}
+
+.navbar-scrolled a:hover{
     color: #014F86;
 }
 
@@ -263,6 +284,10 @@ body{
 #email::placeholder {
     font-family: 'Old Standard TT', serif;    
     color: #A9D6E5; /* Dark background color */
+}
+
+#email:focus{
+    background-color: white;
 }
 
 /* Custom style for the button */

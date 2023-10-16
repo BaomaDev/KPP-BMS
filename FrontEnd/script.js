@@ -1,3 +1,4 @@
+//GSAP buat image interview
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.timeline({
@@ -32,3 +33,16 @@ document.getElementById("emailForm").addEventListener("submit", function (event)
   }
 });
 
+//buat navbar
+const navEl = document.querySelector('.navbar');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY >= 56) {
+    navEl.classList.remove('navbar-normal');
+    navEl.classList.add('navbar-scrolled');
+  } else{
+    navEl.classList.remove('navbar-scrolled');
+    navEl.classList.add('navbar-normal');
+    navEl.classList.add('sticky-top');
+  }
+})
