@@ -37,7 +37,7 @@ document.getElementById("emailForm").addEventListener("submit", function (event)
 const navEl = document.querySelector('.navbar');
 
 window.addEventListener('scroll', () => {
-  if (window.scrollY >= 56) {
+  if (window.scrollY >= 200) {
     navEl.classList.remove('navbar-normal');
     navEl.classList.add('navbar-scrolled');
   } else{
